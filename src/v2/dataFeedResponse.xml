@@ -16,6 +16,7 @@
 		<dxp:metric confidenceInterval='0.0' name='ga:visits' type='integer' value='136540'/>
 		<dxp:metric confidenceInterval='0.0' name='ga:bounces' type='integer' value='101535'/>
 	</dxp:aggregates>
+	<dxp:containsSampledData>false</dxp:containsSampledData>
 	<dxp:dataSource>
 		<dxp:property name='ga:profileId' value='1174'/>
 		<dxp:property name='ga:webPropertyId' value='UA-30481-1'/>
