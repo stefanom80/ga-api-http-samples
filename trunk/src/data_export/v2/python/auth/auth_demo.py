@@ -128,7 +128,7 @@ def PrintFeed(feed):
       row.append(dim.name)
     for met in feed.entry[0].metric:
       row.append(met.name)
-    print '\t'.join(row)
+    print '\t'.join(row).encode('utf-8')
 
   for entry in feed.entry:
     row = []
@@ -136,7 +136,7 @@ def PrintFeed(feed):
       row.append(dim.value)
     for met in entry.metric:
       row.append(met.value)
-    print '\t'.join(row)
+    print '\t'.join(row).encode('utf-8')
 
 
 if __name__ == '__main__':
